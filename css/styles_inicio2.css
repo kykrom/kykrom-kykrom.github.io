@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+:root{
+    --transparentWhite: hsla(0, 0%, 100%, 0.75);
+    --veryLightGray: hsl(0, 0%, 95%);
+}
+*{
+    margin: 0;
+}
+
+article{
+    height: auto;
+    padding: 111px;
+
+}
+.Presentación{
+    background-color: #10111d;
+    padding: 5.30%
+}
+.Crisis{
+    background-color: #00966b;
+
+}
+.Código{
+    background-color: #fbf8f3;
+}
+.Proyecto{
+    background-color: #c50000;
+}
+img{
+    margin-bottom: 36px;
+}
+h2{
+    color: var(--veryLightGray);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+p{
+    color: var(--transparentWhite);
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+button{
+    width: 148px;
+    height: 46px;
+    border-radius: 45px;
+    border-style: none;
+    background-color: var(--veryLightGray);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.ico{
+    margin-bottom: 36px;
+    color: #fbf8f3;
+}
+
+#Crisis-btn{
+    color:  #00966b;
+}
+#Código-btn{
+    color: #fbf8f3;
+}
+#Proyecto-btn{
+    color: #c50000;
+    
+}
+button:hover{
+    cursor: pointer;
+    border: 2px solid var(--veryLightGray);  
+} 
+#Crisis-btn:hover{
+    background-color:  #00966b;
+    color: var(--veryLightGray);  
+}
+#Código-btn:hover{
+    background-color: #fbf8f3;
+    color: #10111d;  
+}
+#Proyecto-btn:hover{
+    background-color: #c50000;
+    color: var(--veryLightGray);  
+}
+.attribution { 
+    font-size: 11px; 
+
+    margin-bottom: 40px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+#Presentación {
+    height: 583px;
+    padding: 48px;
+}
+
+@media (min-width: 944px){
+    #main-container{
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+    }
+    p{
+        margin-bottom: 80px;
+    }
+}
+
+#Crisis-btn{
+    color:  #00966b;
+}
+#Código-btn{
+    color: #fbf8f3;
+    border: #10111d;
+}
+#Proyecto-btn{
+    color: #c50000;
+}
